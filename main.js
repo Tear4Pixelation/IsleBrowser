@@ -37,7 +37,7 @@ function createWindow () {
     win.show();
   });
 
-  win.loadFile('Index.html');
+  win.loadFile('index.html');
   
   // Open DevTools in development
   if (process.env.NODE_ENV === 'development' || electronIsDev) {
